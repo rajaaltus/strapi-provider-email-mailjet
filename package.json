@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-email-mailjet",
+  "name": "strapi-provider-email-mailjet-v3.1",
   "version": "3.0.5",
   "description": "Mailjet provider for strapi email plugin",
   "homepage": "http://strapi.io",
@@ -35,10 +35,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/team-appforge/strapi-provider-email-mailjet.git"
   },
   "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
+    "url": "https://github.com/team-appforge/strapi-provider-email-mailjet/issues"
   },
   "engines": {
     "node": ">=10.10.0",
