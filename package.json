@@ -1,19 +1,21 @@
 {
-  "name": "strapi-provider-email-mailgun",
+  "name": "strapi-provider-email-mailjet",
   "version": "3.0.5",
-  "description": "Mailgun provider for strapi email plugin",
+  "description": "Mailjet provider for strapi email plugin",
   "homepage": "http://strapi.io",
   "keywords": [
     "email",
     "strapi",
-    "mailgun"
+    "mailjet",
+    "appforge",
+    "sqveeze"
   ],
   "directories": {
     "lib": "lib"
   },
   "main": "lib",
   "dependencies": {
-    "mailgun-js": "0.22.0",
+    "node-mailjet": "^3.3.1",
     "strapi-utils": "3.0.5"
   },
   "strapi": {
@@ -48,4 +50,3 @@
   },
   "gitHead": "eaf40e1ada08f9a72bf94faf43c959a0a4d6c8a3"
 }
-
