@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-email-mailjet-v3.1",
+  "name": "strapi-provider-email-mj",
   "version": "3.0.5",
   "description": "Mailjet provider for strapi email plugin",
   "homepage": "http://strapi.io",

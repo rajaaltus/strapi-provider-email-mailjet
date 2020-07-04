@@ -1,4 +1,4 @@
-# strapi-provider-email-mailjet-v3.1
+# strapi-provider-email-mj
 
 ## Resources
 
@@ -18,10 +18,10 @@ You need to have the plugin `strapi-plugin-email` installed in you Strapi projec
 
 ```bash
 # using yarn
-yarn add strapi-provider-email-mailjet-v3.1
+yarn add strapi-provider-email-mj
 
 # using npm
-npm install strapi-provider-email-mailjet-v3.1 --save
+npm install strapi-provider-email-mj --save
 ```
 
 ## Configuration
@@ -42,7 +42,7 @@ npm install strapi-provider-email-mailjet-v3.1 --save
 module.exports = ({ env }) => ({
   // ...
   email: {
-    provider: 'mailjet-v3.1',
+    provider: 'mailjet-mj',
     providerOptions: {
       apiKey: env('MAILJET_API_KEY'),
       secretKey: env('MAILJET_SECRET_KEY'),
